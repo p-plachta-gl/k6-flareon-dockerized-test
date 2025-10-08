@@ -1,0 +1,143 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /tests/4f_flareon_preprod.js
+        output: json (/logs/results.json)
+
+     scenarios: (100.00%) 2 scenarios, 100 max VUs, 10m30s max duration (incl. graceful stop):
+              * anonymous_customer_checkout: 3 iterations for each of 50 VUs (maxDuration: 10m0s, exec: anonymousCheckout, gracefulStop: 30s)
+              * registered_customer_checkout: 3 iterations for each of 50 VUs (maxDuration: 10m0s, exec: registeredCheckout, gracefulStop: 30s)
+
+
+running (00m01.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m01.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m01.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m02.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m02.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m02.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m03.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m03.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m03.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m04.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m04.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m04.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m05.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m05.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m05.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m06.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m06.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m06.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m07.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m07.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m07.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m08.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m08.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m08.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m09.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m09.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m09.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m10.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m10.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m10.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m11.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m11.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m11.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m12.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m12.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m12.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m13.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m13.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m13.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m14.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m14.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m14.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m15.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m15.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m15.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m16.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m16.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m16.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m17.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m17.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m17.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m18.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m18.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m18.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m19.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m19.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m19.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m20.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m20.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m20.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m21.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m21.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m21.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m22.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m22.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m22.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m23.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m23.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m23.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m24.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m24.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m24.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m25.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m25.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m25.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m26.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m26.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m26.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m27.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m27.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m27.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m28.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m28.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m28.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m29.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m29.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m29.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m30.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m30.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m30.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m31.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m31.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m31.0s/10m0s  000/150 iters, 3 per VU
+
+running (00m32.0s), 100/100 VUs, 0 complete and 0 interrupted iterations
+anonymous_customer_checkout    [   0% ] 50 VUs  00m32.0s/10m0s  000/150 iters, 3 per VU
+registered_customer_checkout   [   0% ] 50 VUs  00m32.0s/10m0s  000/150 iters, 3 per VU
